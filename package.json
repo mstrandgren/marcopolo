@@ -5,7 +5,9 @@
   "dependencies": {
     "coffee-script": "^1.9.x",
     "ws": "~0.7.2",
-    "connect": "~3.4.0"
+    "connect": "~3.4.0",
+    "proxywrap": "~0.2.0",
+    "http": "0.0.0"
   },
   "engines": {
     "node": ">=0.10.0"
