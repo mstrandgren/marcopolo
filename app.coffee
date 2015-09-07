@@ -10,11 +10,9 @@ app.use (request, response) ->
 	response.statusCode = 200
 	response.end 'Polo!!'
 
-httpServer = proxiedHttp.createServer(app).listen(8000)
+httpServer = proxiedHttp.createServer(app).listen(80)
 
-console.log 'Started http server on port 8000'
-
-
+console.log 'Started http server on port 80'
 
 WebSocketServer = require('ws').Server
 
