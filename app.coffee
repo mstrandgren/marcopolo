@@ -8,7 +8,7 @@ app = connect()
 app.use (request, response) ->
 	console.log 'Got http request'
 	response.statusCode = 200
-	response.end 'Polo!!'
+	response.end 'Polo!!!!'
 
 httpServer = proxiedHttp.createServer(app).listen(8000)
 
